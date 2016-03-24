@@ -73,7 +73,7 @@ Histogram is made
 hist(total, breaks = 10, main = "Histogram of steps per day", xlab = "Steps per day")
 ```
 
-![](PA1_template_files/figure-html/unnamed-chunk-6-1.png)
+![](./figure/unnamed-chunk-6-1.png)
 
 Mean:
 
@@ -105,14 +105,14 @@ plot(steps, type = "l", xaxt = "n", xlab = "Time")
 axis(1, at = 1:288, labels = times)
 ```
 
-![](PA1_template_files/figure-html/unnamed-chunk-9-1.png)
+![](./figure/unnamed-chunk-9-1.png)
 Plot with interval in the x axis.
 
 ```r
 plot(unique(activityDF$interval), steps, type = "l", xlab = "Interval")
 ```
 
-![](PA1_template_files/figure-html/unnamed-chunk-10-1.png)
+![](./figure/unnamed-chunk-10-1.png)
 
 Computing the maximum number of steps and the corresponding interval.
 
@@ -190,7 +190,7 @@ Histogram is made
 hist(totalAfterFilling, breaks = 10, main = "Histogram of steps per day after filling missing values", xlab = "Steps per day")
 ```
 
-![](PA1_template_files/figure-html/unnamed-chunk-17-1.png)
+![](./figure/unnamed-chunk-17-1.png)
 
 Mean:
 
@@ -256,7 +256,7 @@ library(ggplot2)
 print(p)
 ```
 
-![](PA1_template_files/figure-html/unnamed-chunk-22-1.png)
+![](./figure/unnamed-chunk-22-1.png)
 
 
 

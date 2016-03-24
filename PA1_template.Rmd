@@ -7,7 +7,7 @@ output:
 
 ```{r echo=FALSE}
 #setting the global options
-knitr::opts_chunk$set(echo = TRUE)
+knitr::opts_chunk$set(echo = TRUE, include = TRUE, fig.path='./figure/')
 ```
 
 
